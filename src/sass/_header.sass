@@ -1,32 +1,43 @@
 header
     width: 100%
-    background: #021226
+    background: #072040
     background-size: cover
     background-attachment: fixed
     background-position: center 0
     .contenedor
-        position: relative
     .carrusel
-            position: ab
+        
+        width: 60%
+        margin-bottom: 100px
     .menu
-        width: 90%
-        text-align: right
-        a
-            color: #fff
-            font-size: 20px
-            font-weight: 300
-            display: inline-block
-            margin: 40px 20px
-            text-decoration: none
-            position: relative
-            &:hover
-                text-decoration: underline
+        width: 100%
+        display: grid
+        grid-template-columns: 1fr 1fr
+        .logo
+            img
+                width: 100px
+                position: relative
+            margin: 20px
+        .sub-menu
+            text-align: right
+            text-justify: 
+            a
+                color: #fff
+                font-size: 20px
+                font-weight: 300
+                display: inline-block
+                margin: 40px 20px
+                text-decoration: none
+                position: relative
+                &:hover
+                    text-decoration: underline
     .textos
         width: 100%
         color: #fff
         position: absolute
-        top: 50%
+        top: 75%
         margin-top: -52px
+        left: 50%
         .nombre
             font-size: 50px
             font-weight: 600
