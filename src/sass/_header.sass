@@ -7,17 +7,18 @@ header
     .contenedor
     .carrusel
         
-        width: 60%
+        width: 100%
         margin-bottom: 100px
     .menu
-        width: 100%
+        width: 90%
         display: grid
         grid-template-columns: 1fr 1fr
         .logo
+            display: grid
+            margin-left: 50px
             img
-                width: 100px
-                position: relative
-            margin: 20px
+                align-self: center
+                width: 150px
         .sub-menu
             text-align: right
             text-justify: 
@@ -32,12 +33,14 @@ header
                 &:hover
                     text-decoration: underline
     .textos
-        width: 100%
-        color: #fff
+        background: rgba(255,255,255,.9)
+        padding: 20px
+        color: #072040
+        display: inline
         position: absolute
-        top: 74%
+        top: 30%
         margin-top: -52px
-        left: 50%
+        left: 10%
         .nombre
             font-size: 50px
             font-weight: 600
